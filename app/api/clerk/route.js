@@ -23,7 +23,7 @@ export async function POST(req){
         name: `${data.forst_name} ${data.last_name}`,
         image: data.image_url,
     };
-
+ 
     await connectDB();
 
     switch(type){
